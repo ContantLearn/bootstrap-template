@@ -1,0 +1,13 @@
+{
+  "source": [{
+    "text": "我的任务", "iconCls": "glyphicon glyphicon-list-alt", "children": [{
+      "text": "正在办理", "attributes": {"url": "taskList.html?actType=1"}
+    }, {
+      "text": "已完成", "attributes": {"url": "taskList.html?actType=2"}
+    }, {
+      "text": "待办理", "attributes": {"url": "taskList.html?actType=3"}
+    }]
+  }, {
+    "text": "新建任务", "iconCls": "glyphicon glyphicon-book", "attributes": {"url": "createTask.html"}
+  }]
+}

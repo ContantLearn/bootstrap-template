@@ -1,0 +1,32 @@
+.navbar {
+    margin-bottom: 0;
+    background-color: transparent;
+    border-color: transparent;
+}
+.jumbotron {
+    padding-top: 0;
+    text-align: center;
+    height: 50%;
+}
+#bottom {
+    position: fixed;
+    bottom: 5%;
+    left:0;
+    width: 100%;
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.button:nth-child(2) {
+    background-color: yellowgreen;
+}
+
+.button:nth-child(3) {
+    background-color: greenyellow;
+}

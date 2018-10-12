@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+        .body {
+            position: absolute;
+            top: 60px;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        #navbar,
+        #nav {
+            width: 100%;
+        }
+        #menu {
+            padding: 15px 0 0 0;
+            height: 100%;
+            box-sizing: border-box;
+            background-color: #e9eef1;
+            color: #6A8AA6;
+        }
+        #main {
+            height: 100%;
+            padding-top: 15px;
+        }
+        #content {
+            position: absolute;
+            top: 56px;
+            left: 0;
+            width: 100%;
+            bottom: 0;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid" style="height: 100%;">
+    <div class="row">
+        <!--导航-->
+        <div id="navbar"></div>
+    </div>
+    <div class="body">
+        <!--左侧菜单-->
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2" id="menu" ></div>
+        <!--右侧正文-->
+
+        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10" id="main">
+            <ol class="breadcrumb" id="step">
+                <li><a href="#">首页</a></li>
+            </ol>
+            <div id="content">
+                <iframe width="100%" height="100%" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
