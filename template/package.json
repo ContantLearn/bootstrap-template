@@ -15,7 +15,11 @@
   "author": "{{author}}",
   "license": "ISC",
   "dependencies": {
+    {{#if customBootstrap}}
+    "bootstrap-tuoqun-theme": "^1.0.1",
+    {{else}}
     "bootstrap": "^3.3.7",
+    {{/if}}
     "d": "^1.0.0",
     {{#if echarts}}
       "echarts": "^4.0.4",

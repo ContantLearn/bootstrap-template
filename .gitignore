@@ -1,2 +1,14 @@
 # ignore idea setting file
 .idea
+
+# ignore svn version file
+.svn
+
+# ignore github file
+.DS_Store
+
+# ignore lib
+node_modules
+
+# ignore build files
+dist/

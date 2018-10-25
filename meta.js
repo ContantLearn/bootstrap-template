@@ -9,6 +9,11 @@ module.exports = {
             type: "String",
             message: "Project description"
         },
+        customBootstrap: {
+            type: "confirm",
+            default: true,
+            message: "Use custom bootstrap styles"
+        },
         echarts: {
             type: "confirm",
             default: false,
